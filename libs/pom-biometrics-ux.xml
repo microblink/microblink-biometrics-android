@@ -72,19 +72,19 @@
     <dependency>
       <groupId>androidx.collection</groupId>
       <artifactId>collection</artifactId>
-      <version>1.4.4</version>
+      <version>1.5.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.collection</groupId>
       <artifactId>collection-jvm</artifactId>
-      <version>1.4.4</version>
+      <version>1.5.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.collection</groupId>
       <artifactId>collection-ktx</artifactId>
-      <version>1.4.4</version>
+      <version>1.5.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -114,13 +114,13 @@
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-common</artifactId>
-      <version>2.9.1</version>
+      <version>2.9.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-common-jvm</artifactId>
-      <version>2.9.1</version>
+      <version>2.9.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -144,13 +144,13 @@
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-common-java8</artifactId>
-      <version>2.9.1</version>
+      <version>2.9.4</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-livedata</artifactId>
-      <version>2.9.1</version>
+      <version>2.9.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -168,25 +168,31 @@
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-livedata-core</artifactId>
-      <version>2.9.1</version>
+      <version>2.9.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-livedata-core-ktx</artifactId>
-      <version>2.9.1</version>
+      <version>2.9.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-process</artifactId>
+      <version>2.9.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-runtime</artifactId>
-      <version>2.9.1</version>
+      <version>2.9.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-runtime-android</artifactId>
-      <version>2.9.1</version>
+      <version>2.9.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -216,145 +222,91 @@
     <dependency>
       <groupId>org.jetbrains.kotlinx</groupId>
       <artifactId>kotlinx-coroutines-android</artifactId>
-      <version>1.7.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jetbrains.kotlin</groupId>
-      <artifactId>kotlin-stdlib-jdk8</artifactId>
-      <version>1.9.10</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jetbrains.kotlin</groupId>
-      <artifactId>kotlin-stdlib-jdk7</artifactId>
-      <version>1.9.10</version>
+      <version>1.9.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-runtime-compose</artifactId>
-      <version>2.9.1</version>
+      <version>2.9.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-runtime-compose-android</artifactId>
-      <version>2.9.1</version>
+      <version>2.9.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.runtime</groupId>
       <artifactId>runtime</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.runtime</groupId>
       <artifactId>runtime-android</artifactId>
-      <version>1.7.8</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jetbrains.kotlin</groupId>
-      <artifactId>kotlin-stdlib-common</artifactId>
-      <version>1.9.10</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.runtime</groupId>
+      <artifactId>runtime-annotation</artifactId>
+      <version>1.11.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.runtime</groupId>
+      <artifactId>runtime-annotation-android</artifactId>
+      <version>1.11.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.runtime</groupId>
+      <artifactId>runtime-retain</artifactId>
+      <version>1.11.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.runtime</groupId>
+      <artifactId>runtime-retain-android</artifactId>
+      <version>1.11.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.runtime</groupId>
       <artifactId>runtime-saveable</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.runtime</groupId>
       <artifactId>runtime-saveable-android</artifactId>
-      <version>1.7.8</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.lifecycle</groupId>
-      <artifactId>lifecycle-runtime-ktx</artifactId>
-      <version>2.9.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.lifecycle</groupId>
-      <artifactId>lifecycle-runtime-ktx-android</artifactId>
-      <version>2.9.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.lifecycle</groupId>
-      <artifactId>lifecycle-viewmodel</artifactId>
-      <version>2.9.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.lifecycle</groupId>
-      <artifactId>lifecycle-viewmodel-android</artifactId>
-      <version>2.9.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.lifecycle</groupId>
-      <artifactId>lifecycle-viewmodel-compose</artifactId>
-      <version>2.9.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.lifecycle</groupId>
-      <artifactId>lifecycle-viewmodel-compose-android</artifactId>
-      <version>2.9.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.compose.ui</groupId>
-      <artifactId>ui</artifactId>
-      <version>1.7.8</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.compose.ui</groupId>
-      <artifactId>ui-android</artifactId>
-      <version>1.7.8</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.activity</groupId>
-      <artifactId>activity-ktx</artifactId>
-      <version>1.10.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.activity</groupId>
-      <artifactId>activity</artifactId>
-      <version>1.10.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.lifecycle</groupId>
-      <artifactId>lifecycle-viewmodel-savedstate</artifactId>
-      <version>2.9.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.lifecycle</groupId>
-      <artifactId>lifecycle-viewmodel-savedstate-android</artifactId>
-      <version>2.9.1</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.savedstate</groupId>
+      <artifactId>savedstate-compose</artifactId>
+      <version>1.3.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.savedstate</groupId>
+      <artifactId>savedstate-compose-android</artifactId>
+      <version>1.3.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.savedstate</groupId>
       <artifactId>savedstate</artifactId>
-      <version>1.3.0</version>
+      <version>1.3.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.savedstate</groupId>
       <artifactId>savedstate-android</artifactId>
-      <version>1.3.0</version>
+      <version>1.3.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -372,20 +324,86 @@
     <dependency>
       <groupId>androidx.savedstate</groupId>
       <artifactId>savedstate-ktx</artifactId>
-      <version>1.3.0</version>
+      <version>1.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime-ktx</artifactId>
+      <version>2.9.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime-ktx-android</artifactId>
+      <version>2.9.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel</artifactId>
+      <version>2.9.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel-android</artifactId>
+      <version>2.9.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel-compose</artifactId>
+      <version>2.9.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel-compose-android</artifactId>
+      <version>2.9.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui</artifactId>
+      <version>1.11.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui-android</artifactId>
+      <version>1.11.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.activity</groupId>
+      <artifactId>activity-ktx</artifactId>
+      <version>1.10.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.activity</groupId>
+      <artifactId>activity</artifactId>
+      <version>1.10.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel-savedstate</artifactId>
+      <version>2.9.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-viewmodel-savedstate-android</artifactId>
+      <version>2.9.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-viewmodel-ktx</artifactId>
-      <version>2.9.1</version>
+      <version>2.9.4</version>
       <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.lifecycle</groupId>
-      <artifactId>lifecycle-process</artifactId>
-      <version>2.9.1</version>
-      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.activity</groupId>
@@ -402,79 +420,79 @@
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-geometry</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-geometry-android</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-util</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-util-android</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-graphics</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-graphics-android</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-unit</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-unit-android</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-text</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-text-android</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.emoji2</groupId>
       <artifactId>emoji2</artifactId>
-      <version>1.3.0</version>
+      <version>1.4.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-tooling-preview</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-tooling-preview-android</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -490,51 +508,111 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>androidx.transition</groupId>
+      <artifactId>transition</artifactId>
+      <version>1.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.dynamicanimation</groupId>
+      <artifactId>dynamicanimation</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.legacy</groupId>
+      <artifactId>legacy-support-core-utils</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.documentfile</groupId>
+      <artifactId>documentfile</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.loader</groupId>
+      <artifactId>loader</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.localbroadcastmanager</groupId>
+      <artifactId>localbroadcastmanager</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.print</groupId>
+      <artifactId>print</artifactId>
+      <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.window</groupId>
+      <artifactId>window</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.window</groupId>
+      <artifactId>window-core</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.window</groupId>
+      <artifactId>window-core-android</artifactId>
+      <version>1.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>androidx.compose.foundation</groupId>
       <artifactId>foundation</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.foundation</groupId>
       <artifactId>foundation-android</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.animation</groupId>
       <artifactId>animation</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.animation</groupId>
       <artifactId>animation-android</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.animation</groupId>
       <artifactId>animation-core</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.animation</groupId>
       <artifactId>animation-core-android</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.foundation</groupId>
       <artifactId>foundation-layout</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.foundation</groupId>
       <artifactId>foundation-layout-android</artifactId>
-      <version>1.7.8</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -559,19 +637,37 @@
       <groupId>com.squareup.okhttp3</groupId>
       <artifactId>okhttp</artifactId>
       <version>4.12.0</version>
-      <scope>runtime</scope>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.squareup.okio</groupId>
       <artifactId>okio</artifactId>
       <version>3.6.0</version>
-      <scope>runtime</scope>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.squareup.okio</groupId>
       <artifactId>okio-jvm</artifactId>
       <version>3.6.0</version>
-      <scope>runtime</scope>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <version>1.9.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk7</artifactId>
+      <version>1.9.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-common</artifactId>
+      <version>1.9.10</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.datastore</groupId>
@@ -667,12 +763,6 @@
       <groupId>androidx.fragment</groupId>
       <artifactId>fragment</artifactId>
       <version>1.8.9</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.loader</groupId>
-      <artifactId>loader</artifactId>
-      <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -786,37 +876,37 @@
     <dependency>
       <groupId>androidx.compose.material3</groupId>
       <artifactId>material3</artifactId>
-      <version>1.3.2</version>
+      <version>1.4.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.material3</groupId>
       <artifactId>material3-android</artifactId>
-      <version>1.3.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.compose.material</groupId>
-      <artifactId>material-icons-core</artifactId>
-      <version>1.6.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.compose.material</groupId>
-      <artifactId>material-icons-core-android</artifactId>
-      <version>1.6.0</version>
+      <version>1.4.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.material</groupId>
       <artifactId>material-ripple</artifactId>
-      <version>1.7.0</version>
+      <version>1.11.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>androidx.compose.material</groupId>
       <artifactId>material-ripple-android</artifactId>
-      <version>1.7.0</version>
+      <version>1.11.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material-icons-core</artifactId>
+      <version>1.7.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material</groupId>
+      <artifactId>material-icons-core-android</artifactId>
+      <version>1.7.8</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
