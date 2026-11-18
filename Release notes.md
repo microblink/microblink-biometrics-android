@@ -1,5 +1,9 @@
 # Release notes
 
+## v1000.2.1
+- Total and inactivity timeout implemented
+- UI/UX customization improvement
+
 ## v1000.2.0
 - Initial public release of the Microblink Biometrics SDK for Android.
 - Guided face capture with real-time face guidance.
